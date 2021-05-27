@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather ☀️</title>
+  <script src="https://kit.fontawesome.com/9fd0f49d65.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="src/styles.css" />
+</header>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+          <form class="search-form" id="search-form">
+        <form class="form-inline search">
+          <input class="form-control mr-sm-2" 
+          type="search" 
+          placeholder="Search places" 
+          aria-label="Search" 
+          id="city-input" 
+          class="search-form">
+          
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h1>weather Forescast</h1>
+          <p id="date">May 04, 2021 at 2:23 pm</p>
+        </div>
+
+        <div class="col-12">
+          <div class="card text-center cards">
+            <div class="card-body">
+              <span class="grade_emphasis" id="city"> San Francisco, CA</span>
+              <p class="day">Tuesday</p>
+              <i class="fas fa-cloud-sun-rain rainy"></i>
+              <br>
+              <span class="temperature" id="temperature">19</span
+                ><span class="units">
+                  <a href="#" id="celsius-link">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a>
+              <p class="day">Rainy</p>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-2">
+          <div class="card text-center cards">
+            <div class="card-body">
+              <p class="day">Wed</p>
+              <i class="fas fa-sun sunny"></i> <br>
+              <span class="temperature" id="temperature">19°C</span
+                ><span class="units">
+                   
+              <p class="day">Sunny</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+            <div class="card text-center cards">
+              <div class="card-body">
+                <p class="day">Thu</p>
+                <i class="fas fa-cloud-sun cloudy"></i> <br>
+                <span class="temperature" id="temperature">19°C</span
+                  ><span class="units">
+                     
+                <p class="day">Cloudy</p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-2">
+          <div class="card text-center cards">
+            <div class="card-body">
+              <p class="day">Fri</p>
+              <i class="fas fa-cloud-sun cloudy"></i> <br>
+              <span class="temperature" id="temperature">19°C</span
+                ><span class="units">
+           
+              <p class="day">Cloudy</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="card text-center cards">
+            <div class="card-body">
+              <p class="day">Sat</p>
+              <i class="fas fa-cloud-sun cloudy"></i> <br>
+              <span class="temperature" id="temperature">19°C</span
+                ><span class="units">
+             
+              <p class="day">Cloudy</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-2">
+          <div class="card text-center cards">
+            <div class="card-body">
+              <p class="day">Sun</p>
+              <i class="fas fa-sun sunny"></i> <br>
+              <span class="temperature" id="temperature">19°C</span
+                ><span class="units">
+                
+              <p class="day">Sunny</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="card text-center cards">
+            <div class="card-body">
+              <p class="day">Mon</p>
+              <i class="fas fa-cloud-sun cloudy"></i> <br>
+              <span class="temperature" id="temperature">19°C</span>
+                <span class="units">
+              <p class="day">Cloudy</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+<script src="src/index.js"></Script>
+    </body>
+
+</html>
