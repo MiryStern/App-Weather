@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(100deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.sunny {
+  font-size: 34px;
+  color: #fbb040;
+  margin-bottom: 16px;
+}
+
+.cloudy,
+.rainy {
+  font-size: 34px;
+  color: #8aaed8;
+  margin-bottom: 16px;
+}
+
+.col-2,
+.col-12 {
+  padding: 4px;
+}
+
+.units {
+  color: lightslategrey;
+}
+
+.temperature,
+.city {
+  font-weight: 800;
+}
+
+.day {
+  font-size: small;
+  color: lightslategrey;
+}
+
+.search {
+  background-color: transparent !important;
+  right: 20px;
+  position: relative;
+}
